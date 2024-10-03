@@ -1,0 +1,25 @@
+*{                      /*universal selector*/
+    color: brown
+}
+
+h1{                     /*element selector*/
+    color:red;
+}
+
+button{
+    color:white; 
+    background-color: black;
+}
+
+body{
+    background-color:pink;
+}
+
+#HeadingOne{             /*id selector (unique name)*/
+    color: yellow;
+}
+
+.myclass{               /*class selector:set multiple elements with same style */
+    color: magenta
+}
+
