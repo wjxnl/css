@@ -17,9 +17,23 @@ body{
 
 #HeadingOne{             /*id selector (unique name)*/
     color: yellow;
+    font-weight: 400; /*lightest:100 - darkest:900*/
+}
+
+h2{
+    font-weight: normal;   
 }
 
 .myclass{               /*class selector:set multiple elements with same style */
     color: magenta
 }
 
+h4{
+    text-align: center;
+    text-decoration: black underline;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
