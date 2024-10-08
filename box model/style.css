@@ -1,0 +1,37 @@
+h1{
+    height: 150px;;
+    width: 150px;
+    background-color: beige;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius:15px ;
+    padding-left: 15px ;
+    padding-right: 10px ;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+}
+
+div{
+    height: 150px;
+    background-color: pink;
+    width: 150px;
+    border-width: 3px;
+    border-color: green;
+    border-style: dotted;
+    text-align: center;
+    border-radius: 50% ;
+    padding: 20px;
+}
+
+p{
+    height: 150px;
+    background-color: burlywood;
+    width: 150px;
+    /* border-width: 5px;
+    border-color: rebeccapurple;
+    border-style: dashed; */
+    border: 5px rebeccapurple dashed;
+    text-align: center;
+    padding: 2px 3px 1px 4px; /* top| right| bottom| left */
+}
