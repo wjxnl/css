@@ -1,0 +1,30 @@
+#rectangle{
+    height: 375px;
+    width: 140px;
+    background-color: black;
+    padding-top: 2px;
+}
+
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#three{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    margin: 20px;
+}
