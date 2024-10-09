@@ -1,0 +1,20 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#m{
+    background-color:red;
+    /* display: none; */
+    /* visibility: hidden;  */
+}
+#n{
+    background-color: purple;
+}
+#o{
+    background-color: rgba(0, 255, 0, 0.75);   /* (r, g, b, opacity) */
+}
+
