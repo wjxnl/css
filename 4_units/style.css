@@ -1,0 +1,14 @@
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}  
+#box2{
+    background-color: lavender;
+    font-size: 2em;   /* 2 times of parent's font size */
+    /* width: 5em; five times of own's font size */
+    width: 5rem; /* five times root element */
+    height: 5vh; /*relative to viewport height i.e 5% of browsers height*/
+    width: 20vw; /* relative to viewport width i.e 20% of browsers width*/
+}

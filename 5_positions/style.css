@@ -1,0 +1,42 @@
+div{
+    height: 100px;
+    width: 50px;
+    background-color: pink;
+    border: 2px solid red;
+    display: inline-block;
+}
+
+#box1{
+    position: static; /* default position */
+    background-image: url(cat.jpg);
+    background-size: cover; /* fit whole image */
+}
+#box2{
+    position: relative; /* relative to original position*/
+    top: 20px;
+    left: 20px; 
+    background-color: orange; 
+    z-index: 1; /* it decides the stack level of elements. Overlapping elements with most positive z-index cover those with least postive ones  */
+    background-image: url(monkey.jpg);
+    background-size: auto; /* default */
+}
+#box3{
+    position: absolute; /* relative to its parents i.e.position from body since the parent rn is body*/
+    top: 60px;
+    left: 150px;
+    background-color: blue;
+}
+#box4{
+    position: fixed; /* position can be defined in a fixed way and its postion is always fixed even when scrolling. i.e relative to browser*/
+    bottom: 6px;
+    right: 4px;
+    background-color: yellow;
+    background-image: url(dog.jpg);
+    background-size: contain; /* the image might repeat if the image fits and space is still remaining*/
+    background-repeat: no-repeat; /*the image is fitted only once */
+}
+#box5{
+    position: sticky; /* positioned based on user's scroll position */
+    top: 0px;
+    background-color:aquamarine;
+}
