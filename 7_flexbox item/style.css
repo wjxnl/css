@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    font-weight: bold;
+}
+
+#container{
+    height: 500px;
+    width: 600px;
+    background-color: lime;
+    display: flex;
+}
+
+div{
+    height: 100px;
+    width: 300px;
+    border: 2px solid brown;
+}
+
+#one{
+    background-color: pink;
+    align-self: flex-end; /* alignment of individual along the cross axis */
+    /* align-self has higher priority */
+}
+
+#two{
+    background-color: red;
+    height: 200px;
+    flex-shrink: 2; /* flex item will shrink relative to other flex items*/
+     /* another property is flex-grow; how much a flex item will grow relative to other flex item if space is available */
+}
+
+#three{
+    background-color: skyblue;
+}
+
+#four{
+    background-color: white;
+}

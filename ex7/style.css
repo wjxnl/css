@@ -1,0 +1,30 @@
+ul{
+    background-color: beige;  /*flex container*/
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background-color: azure; /* they are flex items */
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+#outer{
+    background-color: pink;
+    height: 500px;
+    width: 900px;
+    display: flex;   /* outer box is flex container and inner box is flex items */
+    justify-content: center;  /*main axis */
+    align-items: center;    /*cross axis */
+}
+#inner{
+    background-color: skyblue;
+    height: 250px;
+    width: 450px;
+}
