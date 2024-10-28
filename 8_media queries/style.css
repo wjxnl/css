@@ -1,0 +1,11 @@
+div{
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+}
+
+@media (min-width: 400px) and (max-width: 600px){   
+    div{
+        background-color: red;
+    }
+}   
