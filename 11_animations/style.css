@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    text-align: center;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    animation-name: colorAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+    animation-iteration-count:5 ;
+    /* animation-direction: alternate; */
+}
+
+@keyframes positionAnimate{
+    from{background-color: black};
+    to {background-color: brown;}  /*or instead use 0% for 'from' and 100% for 'to'*/
+}
