@@ -1,0 +1,25 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+    text-align: center;
+    color: blue;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    /* transition shorthand: property | duration | timing-function | delay ; */
+}
+
+div:hover{
+    background-color: green;
+    color: white;
+    border: 2px solid orange;
+}
+
+div:active{
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+}
